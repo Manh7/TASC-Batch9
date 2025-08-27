@@ -1,4 +1,4 @@
-package java_core_basic.string;
+package string;
 
 public class Core2 {
     public static void main(String[] args){

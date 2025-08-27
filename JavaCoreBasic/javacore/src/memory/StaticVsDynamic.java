@@ -1,4 +1,4 @@
-package java_core_basic.memory;
+package memory;
 
 public class StaticVsDynamic {
     // cấp phát tĩnh cấp lớp (method area/metaspace): tồn tại xuyên suốt thời gian class được nạp

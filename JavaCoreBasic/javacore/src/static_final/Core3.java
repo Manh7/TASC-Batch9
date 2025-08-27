@@ -1,4 +1,4 @@
-package java_core_basic.static_final;
+package static_final;
 
 public class Core3 {
     public static void main(String[] args){

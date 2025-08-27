@@ -1,4 +1,6 @@
-package java_core_basic.oop;
+package oop;
+
+import oop.English;
 
 public class Person {
     private String name;
@@ -21,9 +23,9 @@ public class Person {
         System.out.println(name+" is breathing");
     }
 
-    public double sum(double d1, double d2){
-        return d1+d2;
-    }
+//    public double sum(double d1, double d2){
+//        return d1+d2;
+//    }
 
     private void privateMethod(){
         System.out.println("private method");
@@ -31,7 +33,7 @@ public class Person {
 }
 
 
-class Student extends Person implements English{
+class Student extends Person implements English, Math {
     private String classId;
     private double point;
 
@@ -52,6 +54,11 @@ class Student extends Person implements English{
     @Override
     public void speakEnglish() {
         System.out.println("I can speak English");
+    }
+
+    @Override
+    public String learnMath(){
+        return "I am learning Math";
     }
 }
 
@@ -74,5 +81,9 @@ class Teacher extends Person{
     //over loading
     public String sum(String s1, String s2){
         return s1+s2;
+    }
+
+    public double sum(double d1, double d2){
+        return d1+d2;
     }
 }

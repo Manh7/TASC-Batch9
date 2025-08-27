@@ -1,4 +1,4 @@
-package java_core_basic.memory;
+package memory;
 
 class Person {
     String name;

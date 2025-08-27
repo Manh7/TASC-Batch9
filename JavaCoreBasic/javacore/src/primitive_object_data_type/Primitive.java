@@ -1,4 +1,4 @@
-package java_core_basic.primitive_object_data_type;
+package primitive_object_data_type;
 
 public class Primitive {
     public static void main(String[] args){

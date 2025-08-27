@@ -1,4 +1,4 @@
-package java_core_basic.handle_exeption;
+package handle_exeption;
 
 class ThrowThrowsDemo {
     // khai báo: phương thức này CÓ THỂ ném IOException

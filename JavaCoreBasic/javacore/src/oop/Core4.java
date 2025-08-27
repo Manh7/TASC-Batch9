@@ -1,4 +1,4 @@
-package java_core_basic.oop;
+package oop;
 
 public class Core4 {
     public static void main(String[] args){
